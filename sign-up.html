@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <div>
+        <p><b>Please fill out the form below:</b></p>
+    <form action="">
+        <label for="name">Name:</label> <br>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="email">Email:</label> <br>
+        <input type="email" id="email" placeholder="example@gmail.com" required>
+        <br><br>
+        <label for="phone">Phone:</label> <br>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+        <br><br>
+        <label for="password">Password:</label> <br>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <br><br>
+        <label for="confirm-password">Confirm Password:</label> <br>                        
+        <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+        <br><br>
+        <label for="number">Age:</label>
+        <input type="number" id="number" placeholder="Enter your age">
+        <br><br>
+        <p>Select your Gender:</p>
+        <input type="radio" name="Gender" value="Male" checked/> Male
+        <input type="radio" name="Gender" value="Female"/> Female
+        <input type="radio" name="Gender" value="Others"/> Others
+        <br><br>
+        <label for="select">Country:</label>
+        <select id="select">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="italy">Italy</option>
+            <option value="germany">Germany</option>
+            <option value="bangladesh" selected>Bangladesh</option>
+            <option value="france">France</option>
+            <option value="spain">Spain</option>
+        </select>
+        <br><br>
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color">
+        <p>Choose your favorite hobby:</p>
+        <input type="checkbox" name="hobbey1" value="Reading"/> Reading <br>
+        <input type="checkbox" name="hobbey2" value="Traveling"/> Traveling <br>
+        <input type="checkbox" name="hobbey3" value="Cooking"/> Cooking <br>
+        <input type="checkbox" name="hobbey4" value="Sports" checked/> Sports <br>
+        <input type="checkbox" name="hobbey5" value="Others"/> Others <br>
+        <br><br>
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" accept=".jpg, .jpeg, .png, .gif">
+        <br><br>
+        <label for="number-range">Rating:</label>
+        <input type="range" id="number-range" min="5" value="10" step="10" max="90">
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+        <br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time">
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter your message" ></textarea>
+        <br><br>
+        <input type="button" value="Submit"/>
+        <input type="reset" value="Reset"/>
+
+    </form>
+</div>
+</body>
+</html>
